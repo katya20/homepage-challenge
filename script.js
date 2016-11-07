@@ -1,8 +1,3 @@
-// demo function
-function logArgs(args) {
-  var a = 1
-  console.log(args)
-};
 
 // firebase example
 function getNotesForName(name) {  
@@ -11,8 +6,11 @@ function getNotesForName(name) {
   })
 }
 
+// objects
+addListItem("product-list", {name: "donut", picture:  "http://www.withsprinklesontop.net/wp-content/uploads/2012/01/DSC_0406x900.jpg", price: "5", rating: "10/10", weight: "0.5lb"})
 
-var functionString = getNotes.toString();
+
+var functionString = getNotesForName.toString();
 
 var consoleLogExample = $("#ex1");
 
