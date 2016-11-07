@@ -35,11 +35,12 @@ formattedExample1.text(functionString1);
 consoleLogExample1.html(formattedExample1);
 
 // functions
-donut = {name: "donut", 
-         picture:  "http://www.withsprinklesontop.net/wp-content/uploads/2012/01/DSC_0406x900.jpg", 
-         price: "5", 
-         rating: "10/10", 
-         weight: "0.5lb"}
+function saySomething() {
+  $(".bubble").html("");
+  console.log("clicked");
+  $(".bubble").show();
+  $(".bubble").append(hello[Math.floor(Math.random() * 6)])
+}
 
 var functionString1 = JSON.stringify(donut)
 
