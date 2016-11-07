@@ -4,7 +4,7 @@ function logArgs(args) {
   console.log(args)
 }
 
-var functionString = logArgs;
+var functionString = logArgs.toString();
 
 var consoleLogExample = $("#ex 1")
 
