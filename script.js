@@ -8,8 +8,8 @@ var functionString = logArgs.toString();
 
 var consoleLogExample = $("#ex 1")
 
-var formattedExample = $("<pre>")
+//var formattedExample = $("<pre>")
+//
+//formattedExample.text(functionString)
 
-formattedExample.text(functionString)
-
-consoleLogExample.html(formattedExample)
+consoleLogExample.html(functionString)
