@@ -6,7 +6,7 @@ function logArgs(args) {
 
 var functionString = logArgs;
 
-var consoleLogExample = $("how do I get the element where I want to put the example?")
+var consoleLogExample = $("#ex 1")
 
 var formattedExample = $("<pre>")
 
