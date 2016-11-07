@@ -39,18 +39,17 @@ function saySomething() {
   $(".bubble").html("");
   console.log("clicked");
   $(".bubble").show();
-  $(".bubble").append(hello[Math.floor(Math.random() * 6)])
 }
 
-var functionString1 = JSON.stringify(donut)
+var functionString2 = saySomething.toString()
 
-var consoleLogExample1 = $("#ex2");
+var consoleLogExample2 = $("#ex3");
 
-var formattedExample1 = $("<pre>");
+var formattedExample2 = $("<pre>");
 
-formattedExample1.text(functionString1);
+formattedExample2.text(functionString2);
 
-consoleLogExample1.html(formattedExample1);
+consoleLogExample2.html(formattedExample2);
 
 
 
