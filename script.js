@@ -4,7 +4,15 @@ function logArgs(args) {
   console.log(args)
 };
 
-var functionString = logArgs.toString();
+// firebase example
+function getNotesForName(name) {  
+  onNewListItem(nameInput.val() + "/notes", function(note) {
+    $("#note-list").append("<div>" + note + "</div>")
+  })
+}
+
+
+var functionString = getNotes.toString();
 
 var consoleLogExample = $("#ex1");
 
