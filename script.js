@@ -70,7 +70,8 @@ consoleLogExample3.html(formattedExample3);
 // function within a funtion
 
 keydown(function(e) {
-  
+  e.keyCode == 32;
+  console.log("hi");
 })
 
 
