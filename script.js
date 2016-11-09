@@ -53,8 +53,8 @@ consoleLogExample2.html(formattedExample2);
 
 // JQuery
 
-function jQuery 
-$("#list-display")
-
+function jQuery() {
+ $("#div-id-name").html("hi")
+}
 
 
