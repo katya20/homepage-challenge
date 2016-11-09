@@ -70,8 +70,20 @@ consoleLogExample3.html(formattedExample3);
 // function within a funtion
 
 keydown(function(e) {
-  e.keyCode == 32;
+  if (e.keyCode == 32) {
   console.log("hi");
+  }
 })
+
+var functionString4 = jQuery.toString()
+
+var consoleLogExample4 = $("#ex5");
+
+var formattedExample4 = $("<pre>");
+
+formattedExample4.text(functionString4);
+
+consoleLogExample4.html(formattedExample4);
+
 
 
