@@ -69,7 +69,7 @@ consoleLogExample3.html(formattedExample3);
 
 // function within a funtion
 
-var function = $("#ex5").keydown(function(e) {
+$("#ex5").keydown(function(e) {
   if (e.keyCode == 32) {
   console.log("hi");
   }
