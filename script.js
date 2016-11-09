@@ -69,13 +69,13 @@ consoleLogExample3.html(formattedExample3);
 
 // function within a funtion
 
-$("#ex5").keydown(function(e) {
+var Function = $("#ex5").keydown(function(e) {
   if (e.keyCode == 32) {
   console.log("hi");
   }
 })
 
-var functionString4 = jQuery.toString()
+var functionString4 = Function.toString()
 
 var consoleLogExample4 = $("#ex5");
 
