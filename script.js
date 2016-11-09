@@ -57,4 +57,14 @@ function jQuery() {
  $("#div-id-name").html("hi")
 }
 
+var functionString3 = jQuery.toString()
+
+var consoleLogExample3 = $("#ex4");
+
+var formattedExample3 = $("<pre>");
+
+formattedExample3.text(functionString3);
+
+consoleLogExample3.html(formattedExample3);
+
 
