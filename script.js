@@ -68,10 +68,9 @@ formattedExample3.text(functionString3);
 consoleLogExample3.html(formattedExample3);
 
 // function within a funtion
-function get(call) {
-  setTimeout(function() {
-    callback(1)
-  }, 1000)
-}
+
+keydown(function(e) {
+  
+})
 
 
