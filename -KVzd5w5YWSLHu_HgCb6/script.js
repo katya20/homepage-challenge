@@ -68,6 +68,21 @@ formattedExample3.text(functionString3);
 consoleLogExample3.html(formattedExample3);
 
 // Text Effects
+function 
+var lettersToFade = $(".by-letter-fade").children();
+var index = 0
+setInterval(function() {
+  if (index >= lettersToFade.length) {
+    index = 0
+  }
+  var letterToFade = $(lettersToFade[index]);
+  letterToFade.animate({"opacity": "0"}, {
+    complete: function() {
+      letterToFade.animate({opacity: "1"})
+    }
+  }) 	
+  index = index + 1
+}, 150)
 
 
 
