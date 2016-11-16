@@ -84,6 +84,34 @@
             
           </div>
         </div>
+        <div class="row">
+
+          <div class="col-xs-7 description" id="des6">
+            <div class="header">
+              Text Effects
+            </div> 
+            Text effects animate 
+          </div>
+          <div class="col-xs-5" id="ex6">
+            <pre>
+           var lettersToFade = $(".by-letter-           fade").children();
+var index = 0
+setInterval(function() {
+  if (index >= lettersToFade.length) {
+    index = 0
+  }
+  var letterToFade = $(lettersToFade[index]);
+  letterToFade.animate({"opacity": "0"}, {
+    complete: function() {
+      letterToFade.animate({opacity: "1"})
+    }
+  }) 	
+  index = index + 1
+}, 150)
+            </pre>
+
+          </div>
+        </div>
       </div>
     </div>
     <script src="script.js" type="text/javascript"></script>
