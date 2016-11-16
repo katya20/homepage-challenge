@@ -67,7 +67,7 @@ formattedExample3.text(functionString3);
 
 consoleLogExample3.html(formattedExample3);
 
-// 
+// Text Effects
 
 
 
