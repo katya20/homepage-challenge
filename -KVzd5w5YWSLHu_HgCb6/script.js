@@ -87,13 +87,13 @@ setInterval(function() {
 
 var functionString4 = ghostly.toString()
 
-var consoleLogExample4 = $("#ex5");
+var consoleLogExample4 = $("#ex6");
 
 var formattedExample4 = $("<pre>");
 
-formattedExample3.text(functionString3);
+formattedExample4.text(functionString4);
 
-consoleLogExample3.html(formattedExample3);
+consoleLogExample4.html(formattedExample4);
 
 
 
