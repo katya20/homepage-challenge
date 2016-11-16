@@ -67,23 +67,9 @@ formattedExample3.text(functionString3);
 
 consoleLogExample3.html(formattedExample3);
 
-// function within a funtion
+// 
 
-$("#ex5").keydown(function(e) {
-  if (e.keyCode == 32) {
-  console.log("hi");
-  }
-})
 
-var functionString4 = function.toString()
-
-var consoleLogExample4 = $("#ex5");
-
-var formattedExample4 = $("<pre>");
-
-formattedExample4.text(functionString4);
-
-consoleLogExample4.html(formattedExample4);
 
 
 
