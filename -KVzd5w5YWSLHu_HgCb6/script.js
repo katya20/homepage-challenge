@@ -68,7 +68,7 @@ formattedExample3.text(functionString3);
 consoleLogExample3.html(formattedExample3);
 
 // Text Effects
-function 
+function ghostly() {
 var lettersToFade = $(".by-letter-fade").children();
 var index = 0
 setInterval(function() {
@@ -83,6 +83,18 @@ setInterval(function() {
   }) 	
   index = index + 1
 }, 150)
+}
+
+var functionString4 = ghostly.toString()
+
+var consoleLogExample4 = $("#ex5");
+
+var formattedExample4 = $("<pre>");
+
+formattedExample3.text(functionString3);
+
+consoleLogExample3.html(formattedExample3);
+
 
 
 
