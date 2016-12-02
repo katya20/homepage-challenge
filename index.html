@@ -90,17 +90,18 @@
             <div class="header">
               Text Effects
             </div> 
+            <div class="ghostly" class='col-xs-7'>
+              <span>G</span>
+              <span>h</span>
+              <span>o</span>
+              <span>s</span>
+              <span>t</span>
+              <span>l</span>
+              <span>y</span>
+            </div>
             Text effects animate each letter individualy using jQuery. This particular code makes the text look 'ghostly'. The animate function makes it easier to write the code and setInterval loops the code, waiting for a certain amount of time before running the code again.  
           </div>
-          <div class="ghostly" class='col-xs-7'>
-            <span>G</span>
-            <span>h</span>
-            <span>o</span>
-            <span>s</span>
-            <span>t</span>
-            <span>l</span>
-            <span>y</span>
-          </div>
+      
           <div class="col-xs-5" id="ex6">
             <pre>
            var lettersToFade = $(".by-letter-           fade").children();
@@ -117,6 +118,25 @@ setInterval(function() {
   }) 	
   index = index + 1
 }, 150)
+            </pre>
+
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-xs-7 description" id="des7">
+            <div class="header">
+              Function within a Function  
+            </div> 
+            .keydown is an example of a funtion within a function. Because keydown is a function that takes in the given function of console.logging and pressing the space bar, this is an example of this. 
+          </div>
+          <div class="col-xs-5" id="ex7">
+            <pre>
+            $("#ex5").keydown(function(e) {
+            if (e.keyCode == 32) {
+            console.log("hi");
+            }
+            })
             </pre>
 
           </div>
